@@ -1,0 +1,33 @@
+Question:-2 Write a blog about objects and its internal representation in Javascript
+
+In Javascript objects are represented in key-value pairs and it is a core data type of Javascript,Keys are strings 
+which refers the values and the values can be of anytype like string,number,array,etc.. 
+
+Objects are mainly used for organizing and manipulating data
+
+INTERNAL REPRESENTATION IN JAVASCRIPT :-
+
+PROPERTIES:
+
+Objects have a collection of Properties,Properties are stored internally in various data structures like property map
+and hash tables which helps java engines manage properties efficiently.
+
+JSON.stringify and JSON.parse:
+
+The Javascript objects can be transfered to API servers directly ,so data must be transfered in a way which both client 
+and server understands, So here JSON plays a vital role by using JSON.stringify we can convert a Javascript object to a
+JSON format and we can use JSON.parse to retrieve the original Javascript object format.
+
+METHODS AND FUNCTIONS
+
+Functions and methods associated with objects are stored as properties. They can be accessed and executed like any other property.
+we can use methods like Math.pi inside an JS object
+
+PROTOTYPE CHAIN:
+
+JS allows new objects to inherit properties from already existing objects
+
+
+DYNAMICALLY ADDING PROPERTIES:
+
+JS allows us to add,modify,delete properties at run time which makes JS flexible,this is achieved by the use of hidden classes.

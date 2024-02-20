@@ -1,0 +1,33 @@
+Question1:-Write a blog on Difference between HTTP1.1 vs HTTP2
+
+Both HTTP 1 and 2 are used for establishing connection between broswer and web server for successful
+exchange of data.
+
+
+HTTP 1.1 :-
+
+1.HTTP 1.1 did not use the concept of multiplexing ,so each resources like JS,HTML,CSS had make separate connection
+
+2.Headers in HTTP 1.1 are contains lot of information which makes the browser response slower
+
+3.In HTTP 1.1 encryption is optional so data privacy is not ensured
+
+4.HTTP 1.1 uses plain text for communication,which is easily readable by humans and not for machines
+
+5.Data is loaded without any prioritzation
+
+
+
+HTTP 2 :-
+
+1.HTTP 2 used the concept of multiplexing, so resource can use single connection for data transfer,which made HTTP 2
+faster
+
+2.Headers in HTTP 2 does not contain any reduntant information and it was more precise by using the algorithm named 
+HPACK
+
+3.In HTTP 2 most the transaction use TLS(Transport Layer Security) which mandates the encryption,which assures data privacy.
+
+4.HTTP 2 uses binary protocol for communication which is not readable by human and easily processed by machines.
+
+5.Concept of prioritzation is used for loading the main content of web page first
